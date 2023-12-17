@@ -14,8 +14,10 @@
   "type": "module",
   "dependencies": {
     "@apollo/server": "^4.9.5",
+    "@prisma/client": "^5.7.0",
     "apollo-server": "^3.13.0",
-    "graphql": "^16.8.1"
+    "graphql": "^16.8.1",
+    "prisma": "^5.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
