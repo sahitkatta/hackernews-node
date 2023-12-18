@@ -27,7 +27,7 @@ const server = new ApolloServer({
       : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
   ],
 });
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 8080
 
 const { url } = await startStandaloneServer(server, {
   listen: { port },
